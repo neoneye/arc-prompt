@@ -2,6 +2,22 @@
 
 Prompts for solving ARC tasks with GPT4 or similar.
 
+# Examples of incorrect predictions
+
+IMO The incorrect predictions are more interesting than the correct predictions.
+These predictions gets very close to the expected output.
+
+<img src="documents/arc_a406ac07_incorrect.jpg">
+
+<img src="documents/arc_b7999b51_incorrect.jpg">
+
+<img src="documents/arc_cd9d57f2_incorrect.jpg">
+
+<img src="documents/arc_Center5_incorrect.jpg">
+
+<img src="documents/arc_eb281b96_incorrect.jpg">
+
+
 # Repo structure
 
 There are 2 dirs:
