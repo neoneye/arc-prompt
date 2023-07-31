@@ -2,10 +2,16 @@
 
 Prompts for solving ARC tasks with GPT4 or similar.
 
+Solves 38 of the public 800 tasks in the ARC 1 dataset.
+
+Untested on the hidden 100 tasks, since GPT4 is closed source.
+
 # Examples of incorrect predictions
 
 IMO The incorrect predictions are more interesting than the correct predictions.
 These predictions gets very close to the expected output.
+
+<img src="documents/arc_fe9372f3_incorrect.jpg">
 
 <img src="documents/arc_a406ac07_incorrect.jpg">
 
