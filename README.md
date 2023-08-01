@@ -17,7 +17,7 @@ Untested on the hidden 100 tasks, since GPT4 is closed source.
 ## Language models
 * OpenAI's GPT4 - solves several of the ARC tasks, and the mispredictions comes very close to expected output.
 * OpenAI's GPT3.5 - unable to solve ARC tasks, but sometimes the mispredictions comes close to expected output.
-* Google's Bard version 2023.07.13 - wasn't able to solve task.
+* Google's Bard version 2023.07.13 - wasn't able to solve any tasks.
 
 ## Examples of incorrect predictions
 
