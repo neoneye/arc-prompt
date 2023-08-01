@@ -39,8 +39,8 @@ These predictions gets very close to the expected output.
 # Repo structure
 
 There are 2 dirs:
-- `prompt/correct` - Solves the task.
-- `prompt/incorrect` - Almost solves the task.
+- [prompts/correct](prompts/correct) - good predictions that solves the tasks.
+- [prompts/incorrect](prompts/incorrect) - mispredictions that comes close at solving the tasks.
 
 The files are markdown documents, with 3 or 4 sections.
 - Section A - **metadata** about what models it was tried on. All the documents says `gpt4` at the moment.
