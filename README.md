@@ -6,6 +6,18 @@ Solves 39 of the public 800 tasks in the ARC 1 dataset.
 
 Untested on the hidden 100 tasks, since GPT4 is closed source.
 
+Learnings about prompts:
+* Big prompts and low chance for a correct solution.
+* Understands Run-length encoded data, but RLE harms the reasoning capabilities. However in some case RLE may work.
+* Understands coordinates and can detect simple shapes, lines, boxes, tetris shapes.
+* Transformations such as rotate 90 or flip, are rarely being considered correctly.
+* Inconclusive what is the best way to represent colors. Sometimes raw color interger values are interpreted as math values, causing havoc to the prediction. Obfuscating colors into text helps. Instead of using the word `color`, I use the word `ID` or `Layer`. Undecided what works.
+
+Language models:
+* OpenAI's GPT4 - solves several of the ARC tasks, and the mispredictions comes very close to expected output.
+* OpenAI's GPT3.5 - unable to solve ARC tasks, but sometimes the mispredictions comes close to expected output.
+* Google's Bard version 2023.07.13 - wasn't able to solve task.
+
 # Examples of incorrect predictions
 
 IMO The incorrect predictions are more interesting than the correct predictions.
