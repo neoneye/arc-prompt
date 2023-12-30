@@ -1,6 +1,4 @@
-Using this model
 mistral-7b-instruct-v0.1.Q4_K_S.gguf
-https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF
 
 ---
 
