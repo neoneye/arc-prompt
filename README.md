@@ -12,7 +12,7 @@ Untested on the hidden 100 tasks, since GPT4 is closed source.
 * Understands Run-length encoded data, but RLE harms the reasoning capabilities. However in some case RLE may work.
 * Understands coordinates and can detect simple shapes, lines, boxes, tetris shapes.
 * Transformations such as rotate 90 or flip, are rarely being considered correctly.
-* Inconclusive what is the best way to represent colors. Sometimes raw color interger values are interpreted as math values, causing havoc to the prediction. Obfuscating colors into text helps. Instead of using the word `color`, I use the word `ID` or `Layer`. Undecided what works.
+* Inconclusive what is the best way to represent colors. Sometimes raw color integer values are interpreted as math values, causing havoc to the prediction. Obfuscating colors into text helps. Instead of using the word `color`, I use the word `ID` or `Layer`. Undecided what works.
 
 ## Language models
 * OpenAI's GPT4 - solves several of the ARC tasks, and the mispredictions comes very close to expected output.
