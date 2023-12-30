@@ -2,7 +2,7 @@
 
 Prompts for solving ARC tasks with GPT4 or similar.
 
-Solves 45 of the public 800 tasks in the ARC 1 dataset.
+Solves 46 of the public 800 tasks in the ARC 1 dataset.
 
 Untested on the hidden 100 tasks, since GPT4 is closed source.
 
